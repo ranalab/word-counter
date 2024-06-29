@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    background-color: #f9f9f9;
+    margin: 0 20px;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: solid 2px #f0f0f0;
+    border-radius: 1rem;
+    outline: none;
+    width: 100%;
+  }
+  
+  textarea:focus {
+    border: solid 2px #f0f0f0;
+    box-shadow: 0 0 5px #f0f0f0;
+  }
+  
+div#output span {
+    color: #F9DC5C;
+    background: #000;
+    padding: 0 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+  
+  
+  
